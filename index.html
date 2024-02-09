@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="body">
+        <br>
         <header>
             <H2>Zanina</H2>
             <ul>
@@ -16,8 +17,9 @@
                 <li>Services</li>
                 <li>Contact me</li>
             </ul>
-            <img src="">
-        </header><br><br>
+           
+        </header>
+        <br><br>
         <section class="firstSection">
             <div class="divSec1">
                <h1>Hi, I am Zanina Alaaeddine</h1>
@@ -27,7 +29,7 @@
                <BUtton id="button2">Learn More</BUtton>
                
             </div>
-            <img src="pictures/profile-pic .png" alt="this is a picture">
+            <img id="profilePic" src="pictures/profile-pic .png" alt="this is a picture">
         </section>
     
     
@@ -116,9 +118,12 @@
                 <input type="tel" placeholder="Phone number" class="input">
             </div>
             <div>
-                <input type="text" placeholder="Message" class="msg input">
+                <label id="label" for="largeTextArea">Your Message :</label>
+    <textarea class="input" name="largeTextArea" rows="10" cols="50"></textarea>
+              
             </div>
-            <input type="submit" value="Submit now" class="boutton">
+           
+            <button id="submit">Submit now</button>
         </form>
         </section>
         <footer>

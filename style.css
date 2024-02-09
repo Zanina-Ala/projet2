@@ -31,19 +31,6 @@ header li:hover{
     border-bottom: 1px solid rgb(19, 50, 19);
 }
 
-
-header img{
-    display: none;
-    background-color: rgb(255, 251, 251);
-    border-radius: 310px;
-    height: 25px;
-    margin: 10px;
-    cursor: pointer;
-}
-header img:hover{
-    height: 35px;
-}
-
 .firstSection{
     display: flex;
     justify-content: space-between;
@@ -70,10 +57,16 @@ header img:hover{
 }
 
 .firstSection #button1{
-    background-color: rgb(6, 3, 67);
-    color: rgb(218, 222, 226);
     border-radius: 3rem; 
     cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db;
+    background-color: #3498db;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .firstSection #button1:hover{
     background-color:rgb(13, 52, 74) ;
@@ -82,19 +75,22 @@ header img:hover{
 
 
 .firstSection #button2{
-    background-color: rgb(107, 6, 6);
-    color: rgb(218, 222, 226);
     border-radius: 3rem; 
     cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #b6d6cc;
+    background-color: #b6d6cc;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .firstSection #button2:hover{
     background-color:rgb(13, 52, 74) ;
 
 }
-.firstSection #button2{
-    background-color: rgb(40, 40, 40);
-    border: 1px solid rgb(58, 30, 30);
-}
+
 
 
 .secondeSection{
@@ -207,6 +203,7 @@ header img:hover{
     margin: 3rem auto;
     text-align: center;
     color: white;
+    
 }
 .fifthSection #git{
     font-size: 2,2rem;
@@ -214,6 +211,71 @@ header img:hover{
 }
 .fifthSection #git:hover{
     border-bottom: 2px solid rgb(245, 247, 246);
+}
+
+.fifthSection .input{
+    background-color: rgb(40, 40, 40);
+    border: none;
+    margin: 25px 25px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+
+.fifthSection .msg{
+    border: 1px solid gray;
+    width: 650px;
+    height: 100px;
+    padding: 10px; 
+}
+.fifthSection #submit{
+    margin: 0.8rem; 
+    padding: 0.8rem;
+    font-size: 1rem;
+    width: 8rem;
+    cursor: pointer;  
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    
+}
+.fifthSection #submit:hover{
+    background-color: #ffffff;
+    color: #3498db;
+}
+
+#submit:active,
+#submit:focus {
+    outline: none;
+    background-color: #297fb8;
+    border-color: #297fb8;
+}
+
+
+
+
+.fifthSection form{
+    display: block;
+}
+
+.fifthSection #label{
+    top: 104.5rem;
+    position: absolute;
+    left: 29rem;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(88, 79, 79);
+    font-size: 1rem;
+    margin-top: 5rem;
 }
 
 
