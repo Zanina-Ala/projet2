@@ -1,0 +1,225 @@
+.body{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    font-family: math;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 19px;
+}
+
+header p{
+    font-size: 18px;
+    margin: 15px 20px;
+    font-size: larger;
+}
+
+header li{
+    
+    display: inline;
+    margin: 1rem;
+    margin-right:1.5rem ;
+    color: white; 
+    cursor: pointer;
+    font-size: larger;
+}
+header li:hover{
+    border-bottom: 1px solid rgb(19, 50, 19);
+}
+
+
+header img{
+    display: none;
+    background-color: rgb(255, 251, 251);
+    border-radius: 310px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+header img:hover{
+    height: 35px;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.firstSection img{
+    border-radius: 340px;
+    width: 290px;
+    height: 290px;
+}
+.firstSection .divSec1{
+    width: 13.5rem;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+}
+.firstSection .h1{
+    color: white;
+    font-size: 33px;
+    margin: 10px 0;
+}
+.firstSection .h2{
+    color: rgb(181, 180, 180);
+    font-size: 14px;
+}
+
+.firstSection #button1{
+    background-color: rgb(6, 3, 67);
+    color: rgb(218, 222, 226);
+    border-radius: 3rem; 
+    cursor: pointer;
+}
+.firstSection #button1:hover{
+    background-color:rgb(13, 52, 74) ;
+
+}
+
+
+.firstSection #button2{
+    background-color: rgb(107, 6, 6);
+    color: rgb(218, 222, 226);
+    border-radius: 3rem; 
+    cursor: pointer;
+}
+.firstSection #button2:hover{
+    background-color:rgb(13, 52, 74) ;
+
+}
+.firstSection #button2{
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(58, 30, 30);
+}
+
+
+.secondeSection{
+    margin: 70px auto;
+    text-align: center;
+    color: white;
+}
+.secondeSection .about{
+    font-size: 35px;
+    cursor: pointer;
+}
+.secondeSection #about:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+.secondeSection i{
+    border-radius: 360px;
+    width: 15px;
+}
+
+.secondeSection .text{
+    font-size: 13px;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.secondeSection .div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+.secondeSection span{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+}
+.secondeSection span p{
+    margin: 5px auto;
+    
+}
+
+.secondeSection span:hover{
+    border: 1px solid rgb(240, 240, 240);
+    background-color: gray;
+    border-radius: 2rem;
+}
+
+.thirdSection{
+    margin: 4.5rem auto;
+    text-align: center;
+    color: white;
+}
+.thirdSection #wid{
+    font-size: 2,2rem;
+    cursor: pointer;
+}
+.thirdSection #wid:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+
+
+.thirdSection span{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+}
+.thirdSection .div2{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+    background-color: rgb(47, 47, 47);
+}
+.thirdSection h5:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+
+
+.fourthSection{
+    margin: 4.5rem auto;
+    text-align: center;
+    color: white;
+}
+.fourthSection #skills{
+    font-size: 2,2rem;
+    cursor: pointer;
+}
+.fourthSection #skills:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+.fourthSection .div3{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+    background-color: rgb(47, 47, 47);
+}
+
+.fourthSection span{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px;
+}
+.fourthSection .div3{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+.fourthSection .tech:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+
+.fifthSection{
+    margin: 3rem auto;
+    text-align: center;
+    color: white;
+}
+.fifthSection #git{
+    font-size: 2,2rem;
+    cursor: pointer;
+}
+.fifthSection #git:hover{
+    border-bottom: 2px solid rgb(245, 247, 246);
+}
+
+
+
+
+
+
+
+
